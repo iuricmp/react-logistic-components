@@ -1,0 +1,36 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "test-lerna": "lerna run test",
+    "build": "lerna run build",
+    "new-version": "lerna version --convential-commits --yes",
+    "diff": "lerna diff",
+    "start": "NODE_ENV=development start-storybook -p 9001 -c .storybook",
+    "test": "NODE_ENV=test jest --verbose"
+  },
+  "dependencies": {
+    "react": "^16.9",
+    "react-dom": "^16.9"
+  },
+  "jest": {
+    "resetModules": true,
+    "testMatch": [
+      "**/?(*.)(spec).js?(x)"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>node_modules/"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-actions": "^5.1.10",
+    "@storybook/addon-links": "^5.1.10",
+    "@storybook/addons": "^5.1.10",
+    "@storybook/react": "^5.1.10",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "react-test-renderer": "^16.9.0"
+  }
+}
