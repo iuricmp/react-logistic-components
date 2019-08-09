@@ -7,5 +7,6 @@
   "author": "React Logistic Components Team",
   "dependencies": {
     "react": "^16.9"
-  }
+  },
+  "gitHead": "40a630350cd7e09c967405edb6ed297ceacd8ee8"
 }
