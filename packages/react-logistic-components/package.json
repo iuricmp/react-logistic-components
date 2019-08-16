@@ -1,0 +1,12 @@
+{
+  "name": "react-logistic-components",
+  "version": "1.0.0",
+  "description": "React components that implement Google's Material Design useful for logistic projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
