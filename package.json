@@ -14,10 +14,6 @@
     "test": "NODE_ENV=test jest --verbose",
     "coverage": "NODE_ENV=test jest --coverage"
   },
-  "dependencies": {
-    "react": "^16.9",
-    "react-dom": "^16.9"
-  },
   "jest": {
     "resetModules": true,
     "testMatch": [
