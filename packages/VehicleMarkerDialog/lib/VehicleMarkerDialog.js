@@ -9,9 +9,12 @@ var _react = _interopRequireDefault(require("react"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-function VehicleMarkerDialog() {
-  return _react["default"].createElement("h1", null, "VehicleMarkerDialog 2");
-}
+var VehicleMarkerDialog = _react["default"].forwardRef(function (props, ref) {
+  return _react["default"].createElement("button", {
+    ref: ref,
+    className: "FancyButton"
+  }, props.children);
+});
 
 var _default = VehicleMarkerDialog;
 exports["default"] = _default;
