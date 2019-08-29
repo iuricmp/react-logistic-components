@@ -2,11 +2,12 @@
   "name": "@react-logistic-components/driver-avatar",
   "version": "0.0.3-alpha.0",
   "description": "A simple driver avatar",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "module": "src/index.js",
   "author": "React Logistic Components Team",
   "dependencies": {
-    "react": "^16.9"
+    "react": "^16.9",
+    "react-dom": "^16.9"
   },
   "gitHead": "40a630350cd7e09c967405edb6ed297ceacd8ee8"
 }
