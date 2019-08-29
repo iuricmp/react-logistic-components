@@ -2,6 +2,6 @@
 
 exports[`renders correctly 1`] = `
 <h1>
-  Driver Avatar Component
+  Driver Avatar Component 2
 </h1>
 `;

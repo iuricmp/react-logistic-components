@@ -10,7 +10,7 @@ var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function DriverAvatar() {
-  return _react["default"].createElement("h1", null, "Driver Avatar Component");
+  return _react["default"].createElement("h1", null, "Driver Avatar Component 2");
 }
 
 var _default = DriverAvatar;
