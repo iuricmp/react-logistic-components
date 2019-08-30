@@ -1,5 +1,5 @@
 {
-  "name": "@react-logistic-components/driver-avatar",
+  "name": "@react-logistic/driver-avatar",
   "version": "0.0.10-alpha.0",
   "description": "A simple driver avatar",
   "main": "lib/index.js",

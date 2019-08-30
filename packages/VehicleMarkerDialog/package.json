@@ -1,5 +1,5 @@
 {
-  "name": "@react-logistic-components/vehicle-marker-dialog",
+  "name": "@react-logistic/vehicle-marker-dialog",
   "version": "0.0.8-alpha.0",
   "description": "Vehicle marker dialog",
   "main": "lib/index.js",
