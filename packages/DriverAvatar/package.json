@@ -9,5 +9,8 @@
     "react": "^16.9",
     "react-dom": "^16.9"
   },
+  "files": [
+    "lib"
+  ],
   "gitHead": "40a630350cd7e09c967405edb6ed297ceacd8ee8"
 }

@@ -8,5 +8,8 @@
   "peerDependencies": {
     "react": "^16.9",
     "react-dom": "^16.9"
-  }
+  },
+  "files": [
+    "lib"
+  ]
 }
