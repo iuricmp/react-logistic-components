@@ -11,6 +11,7 @@
     "diff": "lerna diff",
     "changed": "lerna changed",
     "start": "NODE_ENV=development start-storybook -p 9001 -c .storybook",
+    "storybook": "yarn start",
     "test": "NODE_ENV=test jest --verbose",
     "coverage": "NODE_ENV=test jest --coverage"
   },
