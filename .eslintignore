@@ -1,0 +1,7 @@
+/.git
+/tmp
+lib
+*.config.js
+*.spec.js
+*.stories.js
+node_modules
